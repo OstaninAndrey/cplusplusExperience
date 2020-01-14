@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem
+    version="1.0"
+    id ="ru.ifmo.neerc.io.2015-2016.20151226.trap"
+>
+    <judging>
+        <script type="%ioi">
+            <testset
+                name="preliminary"
+
+                input-name  ="trap.in"
+                output-name ="trap.out"
+                input-href  ="preliminary/##"
+                answer-href ="preliminary/##.a"
+
+                time-limit = "2s"
+                memory-limit ="268435456"
+            >
+                <test points="0" comment="sample 1"/>
+                <test points="0" comment="sample 2"/>
+                <test points="0" comment="sample 3"/>
+            </testset>
+
+            <testset
+                name ="main"
+                input-name  ="trap.in"
+                output-name ="trap.out"
+                input-href  ="tests/##"
+                answer-href ="tests/##.a"
+
+                time-limit ="2s"
+                memory-limit ="268435456"
+            >
+                <test-group
+                    comment = "n &lt;= 1000"
+                    score = "sum"
+                    feedback = "outcome"
+                    group-bonus = "50"
+                >
+                    <test points = "0" comment = "simple 1"/>                
+                    <test points = "0" comment = "simple 2"/>                
+                    <test points = "0" comment = "simple 3"/>                
+                    <test points = "0" comment = "simple 4"/>                
+                    <test points = "0" comment = "Random: n = 10, x = 5, y = 3"/>                
+                    <test points = "0" comment = "Random: n = 3, x = 56, y = 3"/>                
+                    <test points = "0" comment = "Random: n = 803, x = 33937, y = 14831"/>                
+                    <test points = "0" comment = "Random: n = 429, x = 1832, y = 1637"/>                
+                    <test points = "0" comment = "Random: n = 204, x = 2756, y = 1917"/>                
+                    <test points = "0" comment = "Random: n = 993, x = 8016, y = 3955"/>                
+                    <test points = "0" comment = "Random: n = 680, x = 51579, y = 10245"/>                
+                    <test points = "0" comment = "Random: n = 564, x = 24796, y = 22866"/>                
+                    <test points = "0" comment = "Random: n = 433, x = 3393, y = 2640"/>                
+                    <test points = "0" comment = "Random: n = 617, x = 6846, y = 743"/>                
+                    <test points = "0" comment = "Random: n = 556, x = 39882, y = 2354"/>                
+                    <test points = "0" comment = "Random: n = 470, x = 18517, y = 16046"/>                
+                    <test points = "0" comment = "Random: n = 1000, x = 27255, y = 3309"/>                
+                    <test points = "0" comment = "Greater than X: n = 1000, x = 72775, y = 20716"/>                
+                    <test points = "0" comment = "Less than Y: n = 1000, x = 19399, y = 7082"/>                
+                    <test points = "0" comment = "One answer: n = 1000, x = 1001, y = 999"/>                
+                    <test points = "0" comment = "Greater than X: n = 534, x = 27833, y = 10741"/>                
+                    <test points = "0" comment = "Less than Y: n = 230, x = 8573, y = 7791"/>                
+                    <test points = "0" comment = "One answer: n = 150, x = 151, y = 149"/>                
+                    <test points = "0" comment = "Random: n = 1000, x = 3304, y = 848"/>                
+                    <test points = "0" comment = "Greater than X: n = 1000, x = 71080, y = 32173"/>                
+                    <test points = "0" comment = "Less than Y: n = 1000, x = 97353, y = 85008"/>                
+                    <test points = "0" comment = "One answer: n = 1000, x = 1001, y = 999"/>                
+                    <test points = "0" comment = "Greater than X: n = 720, x = 4499, y = 1560"/>                
+                    <test points = "0" comment = "Less than Y: n = 552, x = 4723, y = 625"/>                
+                    <test points = "0" comment = "One answer: n = 682, x = 683, y = 681"/>                
+                    <test points = "0" comment = "Random: n = 1000, x = 81756, y = 13627"/>                
+                    <test points = "0" comment = "Greater than X: n = 1000, x = 49916, y = 15883"/>                
+                    <test points = "0" comment = "Less than Y: n = 1000, x = 33892, y = 3025"/>                
+                    <test points = "0" comment = "One answer: n = 1000, x = 1001, y = 999"/>                
+                    <test points = "0" comment = "Greater than X: n = 775, x = 54619, y = 29880"/>                
+                    <test points = "0" comment = "Less than Y: n = 79, x = 14279, y = 10765"/>                
+                    <test points = "0" comment = "One answer: n = 550, x = 551, y = 549"/>                
+                </test-group>
+
+                <test-group
+                    comment = "n &lt;= 100000"
+                    score = "sum"
+                    feedback = "outcome"
+                    group-bonus = "50"
+                >
+                    <test points = "0" comment = "Random: n = 80715, x = 55201, y = 29140"/>                
+                    <test points = "0" comment = "Random: n = 88016, x = 36140, y = 34082"/>                
+                    <test points = "0" comment = "Random: n = 72724, x = 4980, y = 2942"/>                
+                    <test points = "0" comment = "Random: n = 35875, x = 48805, y = 5786"/>                
+                    <test points = "0" comment = "Random: n = 4475, x = 8765, y = 4432"/>                
+                    <test points = "0" comment = "Random: n = 16376, x = 26294, y = 25402"/>                
+                    <test points = "0" comment = "Random: n = 54229, x = 34374, y = 150"/>                
+                    <test points = "0" comment = "Random: n = 75252, x = 10178, y = 8654"/>                
+                    <test points = "0" comment = "Random: n = 4583, x = 1178, y = 414"/>                
+                    <test points = "0" comment = "Random: n = 25751, x = 35804, y = 2444"/>                
+                    <test points = "0" comment = "Random: n = 100000, x = 92939, y = 42222"/>                
+                    <test points = "0" comment = "Greater than X: n = 100000, x = 15278, y = 5199"/>                
+                    <test points = "0" comment = "Less than Y: n = 100000, x = 690, y = 664"/>                
+                    <test points = "0" comment = "One answer: n = 100000, x = 99996, y = 99994"/>                
+                    <test points = "0" comment = "Greater than X: n = 19790, x = 17703, y = 8393"/>                
+                    <test points = "0" comment = "Less than Y: n = 85596, x = 42267, y = 10126"/>                
+                    <test points = "0" comment = "One answer: n = 73287, x = 5741, y = 5739"/>                
+                    <test points = "0" comment = "Random: n = 100000, x = 65121, y = 34720"/>                
+                    <test points = "0" comment = "Greater than X: n = 100000, x = 89387, y = 14617"/>                
+                    <test points = "0" comment = "Less than Y: n = 100000, x = 49044, y = 13982"/>                
+                    <test points = "0" comment = "One answer: n = 100000, x = 99996, y = 99994"/>                
+                    <test points = "0" comment = "Greater than X: n = 6697, x = 2922, y = 2441"/>                
+                    <test points = "0" comment = "Less than Y: n = 81799, x = 34527, y = 870"/>                
+                    <test points = "0" comment = "One answer: n = 54018, x = 17272, y = 17270"/>                
+                    <test points = "0" comment = "Random: n = 100000, x = 73916, y = 62193"/>                
+                    <test points = "0" comment = "Greater than X: n = 100000, x = 2153, y = 560"/>                
+                    <test points = "0" comment = "Less than Y: n = 100000, x = 6890, y = 3600"/>                
+                    <test points = "0" comment = "One answer: n = 100000, x = 99996, y = 99994"/>                
+                    <test points = "0" comment = "Greater than X: n = 16985, x = 36135, y = 36013"/>                
+                    <test points = "0" comment = "Less than Y: n = 27566, x = 10679, y = 4030"/>                
+                    <test points = "0" comment = "One answer: n = 33143, x = 5565, y = 5563"/>                
+                </test-group>
+
+            </testset>
+
+            <verifier type="%testlib">
+                <binary executable-id ="java.check" file ="check.jar" />
+            </verifier>
+        </script>
+    </judging>
+</problem>
